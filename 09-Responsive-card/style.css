@@ -78,7 +78,7 @@ body {
 /* Card body */
 
 .card-reaction {
- 
+
     padding: 10px 20px 0;
 }
 
@@ -95,9 +95,9 @@ body {
 /* Like and comment animations :) */
 
 .fa-heart:hover {
-     font-size: 30px;
-     transition: 0.3s;
-     color: red;
+    font-size: 30px;
+    transition: 0.3s;
+    color: red;
 }
 
 .fa-comment:hover {
@@ -105,11 +105,11 @@ body {
     transition: 0.3s;
     color: blue;
 }
-  
+
 /* media query */
- 
+
 /* tablet 768px */
-@media  screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -118,10 +118,9 @@ body {
 }
 
 /* smartphone 375px */
-@media  screen and (max-width:375px) {
+@media screen and (max-width:375px) {
     body {
         display: grid;
         grid-template-columns: 1fr;
     }
 }
-
